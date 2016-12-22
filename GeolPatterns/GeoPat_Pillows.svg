@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="15.298791"
+   height="15.298581"
+   id="svg9432"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="GeoPat_vulkanische_Aschen.svg">
+  <defs
+     id="defs9434" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="8"
+     inkscape:cx="1.1880562"
+     inkscape:cy="0.17463723"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1283"
+     inkscape:window-height="930"
+     inkscape:window-x="479"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata9437">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0.3903479,8.9931337)">
+    <g
+       style="fill:none;stroke:#000000;stroke-width:1.60695267;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
+       id="g7989"
+       transform="matrix(0.18668877,0,0,0.18668877,-88.507185,-309.64995)">
+      <path
+         id="path5476"
+         d="m 554.00889,1652.2636 c -27.33803,-27.3377 -54.67606,-27.3381 -82.01409,0 m 82.01409,0 c -13.66901,0 -27.33803,6.8343 -41.00705,20.5033 m 0,0 c -13.66901,-13.6687 -27.33838,-20.503 -41.0074,-20.503"
+         class="fil0 str0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:1.60695267;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         id="path5478"
+         d="m 554.00889,1611.2569 c -13.66901,0 -27.33803,6.8343 -41.00705,20.5033 m 0,0 c -13.66901,-13.6687 -27.33838,-20.503 -41.0074,-20.503"
+         class="fil0 str0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:1.60695267;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         id="path5480"
+         d="m 554.00889,1693.2702 c -27.33803,-27.3376 -54.67606,-27.338 -82.01409,0"
+         class="fil0 str0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:1.60695267;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16.814619"
+   height="9.831357"
+   id="svg4090"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="GeoPat_Gips.svg">
+  <defs
+     id="defs4092" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="32"
+     inkscape:cx="9.1138668"
+     inkscape:cy="2.6900279"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="867"
+     inkscape:window-height="823"
+     inkscape:window-x="32"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="true" />
+  <metadata
+     id="metadata4095">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0.72488348,5.1024891)">
+    <g
+       id="g4733">
+      <path
+         id="path3299"
+         d="m 16.085761,2.8712554 c -1.507198,1.2358665 -3.014397,1.2358665 -4.521665,0"
+         class="fil0 str0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         id="path3301"
+         d="m 7.8963412,2.8712554 c -1.5071985,1.2358665 -3.0143969,1.2358665 -4.5216655,0"
+         class="fil0 str0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none" />
+      <polyline
+         transform="matrix(0.70147931,0,0,0.70147931,-0.92939085,-8.2959486)"
+         id="polyline3303"
+         points="24.2561,15.9195 21.0332,18.5623 17.8102,15.9195 "
+         class="fil0 str0"
+         style="fill:none;stroke:#000000;stroke-width:0.42766765;stroke-miterlimit:4;stroke-dasharray:none" />
+      <polyline
+         transform="matrix(0.70147931,0,0,0.70147931,-0.92939085,-8.2959486)"
+         id="polyline3305"
+         points="12.5816,15.9195 9.3588,18.5623 6.1357,15.9195 "
+         class="fil0 str0"
+         style="fill:none;stroke:#000000;stroke-width:0.42766765;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         id="path3307"
+         d="m 11.991087,-2.0030389 c -1.507199,1.23592593 -3.0144678,1.23592593 -4.5216662,0"
+         class="fil0 str0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         id="path3309"
+         d="m 3.8016662,-2.0030389 c -1.5071985,1.23592593 -3.01446707,1.23592593 -4.52166551,0"
+         class="fil0 str0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none" />
+      <polyline
+         transform="matrix(0.70147931,0,0,0.70147931,-0.92939085,-8.2959486)"
+         id="polyline3311"
+         points="18.4189,8.9709 15.196,11.6137 11.973,8.9709 "
+         class="fil0 str0"
+         style="fill:none;stroke:#000000;stroke-width:0.42766765;stroke-miterlimit:4;stroke-dasharray:none" />
+      <polyline
+         transform="matrix(0.70147931,0,0,0.70147931,-0.92939085,-8.2959486)"
+         id="polyline3313"
+         points="6.7444,8.9709 3.5215,11.6137 0.2985,8.9709 "
+         class="fil0 str0"
+         style="fill:none;stroke:#000000;stroke-width:0.42766765;stroke-miterlimit:4;stroke-dasharray:none" />
+      <rect
+         id="rect3315"
+         height="9.7486677"
+         width="16.378769"
+         y="-5.0235529"
+         x="-0.29300874"
+         class="fil0"
+         style="fill:none;stroke-width:0.30000000999999998;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+  </g>
+</svg>
