@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PROJECT xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Layers" newKitKatMDBDefinition="True">
+  <MAP title="Layers" mapunits="" extent="-24.95148026,118.715277773,-25.54851974,119.784722228" gridhorizno="1" gridvertno="1" gridvisible="False" gridlinestyle="dotline" gridlinesize="1" gridcolour="0,0,0" graticulegrid="False" coordcode="GDA94 ">
+    <LAYER name="frame_2747" displayed="True" visible="True" expanded="False" position="0" group="" maxscale="0.00" minscale="0.00" coordcode="GDA94 " rendertype="single" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" fillstyle="invisible" fillcolour="255,255,255" displayfield="NAME" transparentcolour="0,0,0" layerdatatype="GisLayer" displayOthers="False">
+      <DATASET name="dcac2de3-a260-4147-8d7f-7386076ff45d">
+        <DATASOURCE name="frame_2747" datapath="..\..\ARCMAP" datafile="frame_2747.shp" datatable="frame_2747.dbf" />
+      </DATASET>
+    </LAYER>
+    <LAYER name="warox_2747" displayed="True" visible="False" expanded="False" position="1" group="" maxscale="0.00" minscale="0.00" coordcode="GDA94 " rendertype="single" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="10" fillstyle="solid" fillcolour="255,128,64" pointfont="Wingdings" pointstyle="rhomb" rotation="0" charindex="0" displayfield="SITEID" transparentcolour="0,0,0" layerdatatype="GisLayer" displayOthers="False">
+      <DATASET name="931593f0-7731-4123-b8bf-e8ca7437fdfc">
+        <DATASOURCE name="warox_2747" datapath="..\..\ARCMAP" datafile="warox_2747.shp" datatable="warox_2747.dbf" />
+      </DATASET>
+    </LAYER>
+    <LAYER name="section_line_2747" displayed="True" visible="False" expanded="False" position="2" group="" coordcode="GDA94 " rendertype="single" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" displayfield="FEATURE" transparentcolour="0,0,0" layerdatatype="GisLayer" displayOthers="False">
+      <DATASET name="28a8eacc-5e16-48e3-8cf3-4fe1890a0965">
+        <DATASOURCE name="section_line_2747" datapath="..\..\ARCMAP" datafile="section_line_2747.shp" datatable="section_line_2747.dbf" />
+      </DATASET>
+    </LAYER>
+    <LAYER name="linear_2747" displayed="True" visible="True" expanded="False" position="3" group="" maxscale="0.00" minscale="0.00" coordcode="GDA94 " rendertype="unique" displayfield="NAME" layerdatatype="GisLayer" displayOthers="False">
+      <DATASET name="0fb18199-159b-49d1-b1fe-575058592a87" lookupfield="SYMBOL">
+        <DATASOURCE name="linear_2747" datapath="..\..\ARCMAP" datafile="linear_2747.shp" datatable="linear_2747.dbf" />
+      </DATASET>
+      <VALUEMAPRENDERER casesensitive="0">
+        <EXACT value="Fault or shear zone; exposed">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="0,0,0" innercolour="0,0,0" size="2" />
+        </EXACT>
+        <EXACT value="Fault or shear zone; thrust, exposed, triangle on upthrown side">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="0,0,0" innercolour="0,0,0" size="2" />
+        </EXACT>
+        <EXACT value="Fault or shear zone; concealed">
+          <SIMPLELINESYMBOL linestyle="dashline" linecolour="102,102,102" innercolour="0,0,0" size="2" />
+        </EXACT>
+        <EXACT value="Fault or shear zone; thrust, concealed, triangle on upthrown side">
+          <SIMPLELINESYMBOL linestyle="dashline" linecolour="102,102,102" innercolour="0,0,0" size="2" />
+        </EXACT>
+        <EXACT value="Fold axial trace; anticline, exposed">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="253,43,158" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="Fold axial trace; syncline, exposed">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="253,43,158" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="Fold axial trace; anticline, concealed">
+          <SIMPLELINESYMBOL linestyle="dashline" linecolour="253,43,158" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="Fold axial trace; syncline, concealed">
+          <SIMPLELINESYMBOL linestyle="dashline" linecolour="253,43,158" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="Trend of bedding">
+          <SIMPLELINESYMBOL linestyle="dashline" linecolour="0,0,0" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="Trend of metamorphic foliation">
+          <SIMPLELINESYMBOL linestyle="dashdotdotline" linecolour="0,0,0" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="Trend of gneissic layering">
+          <SIMPLELINESYMBOL linestyle="dashdotdotline" linecolour="0,0,0" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <othersymbol>
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="75,199,91" innercolour="255,255,255" size="1" />
+        </othersymbol>
+      </VALUEMAPRENDERER>
+    </LAYER>
+    <LAYER name="linear_simple_2747" displayed="True" visible="False" expanded="False" position="4" group="" maxscale="0.00" minscale="0.00" coordcode="GDA94 " rendertype="unique" displayfield="NAME" layerdatatype="GisLayer" displayOthers="False">
+      <DATASET name="dbb62054-916a-4272-b531-47e64fd58dc8" lookupfield="SYMBOL">
+        <DATASOURCE name="linear_simple_2747" datapath="..\..\ARCMAP" datafile="linear_simple_2747.shp" datatable="linear_simple_2747.dbf" />
+      </DATASET>
+      <VALUEMAPRENDERER casesensitive="0">
+        <EXACT value="Fault or shear zone; exposed">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="0,0,0" innercolour="0,0,0" size="2" />
+        </EXACT>
+        <EXACT value="Fault or shear zone; thrust, exposed, triangle on upthrown side">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="0,0,0" innercolour="0,0,0" size="2" />
+        </EXACT>
+        <EXACT value="Fold axial trace; anticline, exposed">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="253,43,158" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="Fold axial trace; syncline, exposed">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="253,43,158" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="Fracture pattern">
+          <SIMPLELINESYMBOL linestyle="dashline" linecolour="0,0,0" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <othersymbol>
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="167,242,122" innercolour="255,255,255" size="1" />
+        </othersymbol>
+      </VALUEMAPRENDERER>
+    </LAYER>
+    <LAYER name="dyke_2747" displayed="True" visible="True" expanded="False" position="5" group="" maxscale="0.00" minscale="0.00" coordcode="GDA94 " rendertype="unique" displayfield="CODE" layerdatatype="GisLayer" displayOthers="False">
+      <DATASET name="d20dd2b3-c91a-4fc7-ab51-dfc8dd30826c" lookupfield="CODE">
+        <DATASOURCE name="dyke_2747" datapath="..\..\ARCMAP" datafile="dyke_2747.shp" datatable="dyke_2747.dbf" />
+      </DATASET>
+      <VALUEMAPRENDERER casesensitive="0">
+        <EXACT value="zq">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="0,0,0" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="od">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="30,200,104" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="A-mba-YEG">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="60,253,65" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="A-mbs-YEG">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="60,253,65" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="A-sn-YEG">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="163,143,136" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="A-ss-YEG">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="163,143,136" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="A-cib-YEG">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="9,155,245" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <othersymbol>
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="53,79,152" innercolour="255,255,255" size="1" />
+        </othersymbol>
+      </VALUEMAPRENDERER>
+    </LAYER>
+    <LAYER name="dyke_simple_2747" displayed="True" visible="False" expanded="False" position="6" group="" maxscale="0.00" minscale="0.00" coordcode="GDA94 " rendertype="unique" displayfield="CODE" layerdatatype="GisLayer" displayOthers="False">
+      <DATASET name="4efacdee-9a91-416a-a224-453d6b6d8b13" lookupfield="CODE">
+        <DATASOURCE name="dyke_simple_2747" datapath="..\..\ARCMAP" datafile="dyke_simple_2747.shp" datatable="dyke_simple_2747.dbf" />
+      </DATASET>
+      <VALUEMAPRENDERER casesensitive="0">
+        <EXACT value="zq">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="0,0,0" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <EXACT value="od">
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="30,200,104" innercolour="0,0,0" size="1" />
+        </EXACT>
+        <othersymbol>
+          <SIMPLELINESYMBOL linestyle="solidline" linecolour="218,60,220" innercolour="255,255,255" size="1" />
+        </othersymbol>
+      </VALUEMAPRENDERER>
+    </LAYER>
+    <LAYER name="geology_surface_2747_nop" displayed="True" visible="True" expanded="False" position="7" group="" maxscale="0.00" minscale="0.00" coordcode="GDA94 " rendertype="unique" displayfield="CODE" layerdatatype="GisLayer" displayOthers="False">
+      <DATASET name="c4c43559-1f0f-4f79-a5bc-bffd4e927976" lookupfield="CODE">
+        <DATASOURCE name="geology_surface_2747" datapath="..\..\ARCMAP" datafile="geology_surface_2747.shp" datatable="geology_surface_2747.dbf" />
+      </DATASET>
+      <VALUEMAPRENDERER casesensitive="0">
+        <EXACT value="_C">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,254,232" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_Ca">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,254,232" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_C-c">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,254,232" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_C-c-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,254,232" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_C-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,254,232" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_W">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,253,208" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_Wp-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,253,208" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_Wt">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,253,208" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_Wt-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,253,208" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_W-c">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,253,208" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_W-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,253,208" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_W-k">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,253,208" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_W-q">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,253,208" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_A">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,252,236" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_Ad">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,252,236" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_Af">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,252,236" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_Af-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,252,236" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_Ai">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,252,236" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_Ai-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,252,236" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_Av">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,249,217" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_A-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,252,236" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_A-k">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,252,236" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_A-q">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,252,236" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_Ll">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="248,255,254" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_Lw">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="241,254,253" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_S">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,253,208" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_C1">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,253,184" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_C1-c">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,253,184" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_C1-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,253,184" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_A1">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,246,198" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_A1a">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,246,198" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_A1a-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,246,198" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_A1-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,246,198" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_C2">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,251,138" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_C2-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,251,138" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_C2-c-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,251,138" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_A2">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,240,160" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_A2-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,240,160" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_Ri-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,238,194" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_R-f">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,246,224" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_R-k">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,246,224" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_R-l">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,246,224" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="_R-z">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,246,224" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="od">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="30,200,104" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-WKku-od">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="142,228,180" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-MCi-sl">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="250,209,193" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-MCi-cl">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="250,209,193" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-MCc-st">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="243,200,157" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-MCc-sl">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="210,196,201" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-MCc-ss">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="243,200,157" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-MCb-sl">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="252,224,213" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-MCb-cl">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="169,211,253" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-MCb-ss">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="252,224,213" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-YMt-ss">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="250,226,182" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-YWc-sl">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="252,235,206" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-mgsb-Y">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,207,203" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-mgss-Y">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="254,207,203" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-mn-YEG">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="207,218,215" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-mba-YEG">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="99,253,103" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-mbm-YEG">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="99,253,103" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-mu-YEG">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="222,217,254" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-sn-YEG">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="218,210,207" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-ss-YEG">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="218,210,207" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-bb-YEG">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="196,254,198" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="Made ground">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,255,255" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="Opencut">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,255,255" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="Tailings">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,255,255" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <othersymbol>
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="229,63,181" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </othersymbol>
+      </VALUEMAPRENDERER>
+    </LAYER>
+    <LAYER name="geology_simple_2747_nop" displayed="True" visible="False" expanded="False" position="8" group="" maxscale="0.00" minscale="0.00" coordcode="GDA94 " rendertype="unique" displayfield="CODE" layerdatatype="GisLayer" displayOthers="False">
+      <DATASET name="679374b2-cd50-4b13-b55b-fcf7ed61d3d4" lookupfield="CODE">
+        <DATASOURCE name="geology_simple_2747" datapath="..\..\ARCMAP" datafile="geology_simple_2747.shp" datatable="geology_simple_2747.dbf" />
+      </DATASET>
+      <VALUEMAPRENDERER casesensitive="0">
+        <EXACT value="od">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="30,200,104" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-WKku-od">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="142,228,180" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-MCP6-s">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="240,186,89" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-MCP5-s">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="247,215,160" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-YM-xsf-b">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="250,226,182" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="P_-YW-s">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="250,226,182" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-mgs-Y">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="255,223,221" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-mn-YEG">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="207,218,215" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-mb-YEG">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="158,254,160" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-mu-YEG">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="222,217,254" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-s-YEG">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="218,210,207" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <EXACT value="A-b-YEG">
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="196,254,198" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </EXACT>
+        <othersymbol>
+          <SIMPLEPOLYGONSYMBOL fillstyle="solid" fillcolour="207,149,241" linestyle="solidline" linecolour="0,0,0" innercolour="255,255,255" size="1" />
+        </othersymbol>
+      </VALUEMAPRENDERER>
+    </LAYER>
+  </MAP>
+</PROJECT>

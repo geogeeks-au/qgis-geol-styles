@@ -1,0 +1,18 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  File "100k_2747_map.jp2"
+  Type "RASTER"
+  (118.978473132722,-24.971312754005) (0,0) Label "Pt 1",
+  (120.036931188524,-24.971312754005) (12452,0) Label "Pt 2",
+  (120.036931188524,-25.593137208755) (12452,8383) Label "Pt 3",
+  (118.978473132722,-25.593137208755) (0,8383) Label "Pt 4"
+  CoordSys Earth Projection 1, 116
+  Units "degree"
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "984a5493-8829-4eeb-83f8-c121b1fea24d"
+end_metadata
